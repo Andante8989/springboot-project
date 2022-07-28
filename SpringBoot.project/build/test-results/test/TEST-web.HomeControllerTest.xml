@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="web.HomeControllerTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-J20NTBR" time="0.0">
+  <properties/>
+  <system-out><![CDATA[12:50:05.354 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class web.HomeControllerTest]
+12:50:05.361 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:50:05.368 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:50:05.387 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [web.HomeControllerTest] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
+12:50:05.404 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [web.HomeControllerTest], using SpringBootContextLoader
+12:50:05.408 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [web.HomeControllerTest]: class path resource [web/HomeControllerTest-context.xml] does not exist
+12:50:05.408 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [web.HomeControllerTest]: class path resource [web/HomeControllerTestContext.groovy] does not exist
+12:50:05.409 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [web.HomeControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:50:05.410 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [web.HomeControllerTest]: HomeControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:50:05.472 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [web.HomeControllerTest]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
