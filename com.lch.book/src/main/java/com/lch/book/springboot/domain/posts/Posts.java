@@ -1,6 +1,7 @@
 package com.lch.book.springboot.domain.posts;
 
 
+import com.lch.book.springboot.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,7 +12,7 @@ import javax.persistence.*;
 @Getter //
 @NoArgsConstructor
 @Entity  // 테이블과 링크될 클래스임을 나타냄
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     @Id // 해당 테이블의 pk임을 타타냄
     @GeneratedValue(strategy = GenerationType.IDENTITY) // GenerationType.IDENTITY 추가해야만 auth increment 가능
