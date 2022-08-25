@@ -1,15 +1,12 @@
 package com.lch.book.springboot.config.auth;
 
+import com.lch.book.springboot.config.auth.CustomOAuth2UserService;
 import com.lch.book.springboot.domain.user.Role;
 import lombok.RequiredArgsConstructor;
-
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.web.SecurityFilterChain;
 
 @RequiredArgsConstructor
 @EnableWebSecurity // 스프링 시큐리티 설정 활성화
